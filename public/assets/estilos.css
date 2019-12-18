@@ -1,0 +1,25 @@
+.border {
+    border: 1px solid black !important;
+}
+
+div.container {
+    margin-top: 5% !important;
+    height: 100px;
+}
+
+div.row {
+    margin-top: 1% !important;
+    height: 75px;
+}
+
+.tam-button {
+    width: 100%;
+}
+
+.tam-input-sorteio {
+    width: 99px !important;
+}
+
+.cor-card {
+    background: #e6e6e6 !important;
+}

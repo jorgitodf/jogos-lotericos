@@ -11,14 +11,19 @@ category_costs
 
 php -S localhost:8000 public
 
-vendor\bin\phinx.bat create CreateLotofacilBettings
+
 
 vendor\bin\phinx.bat migrate
 vendor\bin\phinx.bat rollback
 vendor\bin\phinx.bat rollback -t=0
 
 easy_lottos
+
+vendor/bin/phinx.bat create CreateEasyLottos
+vendor/bin/phinx.bat create CreateLotofacilBettings
+
 vendor\bin\phinx.bat create CreateEasyLottos
+vendor\bin\phinx.bat create CreateLotofacilBettings
 vendor\bin\phinx.bat create CreateUsersTable
 
 php migrate-seed.php

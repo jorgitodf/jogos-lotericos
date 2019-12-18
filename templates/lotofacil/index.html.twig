@@ -1,0 +1,15 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+    <div class="container col-10 col-sm-10 col-md-10 col-lg-10">
+        <h3>{{title}}</h3>
+        <div class="btn-toolbar card" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group mr-2 card-body" role="group" aria-label="First group">
+                <a href="{{ route('lotofacil.new') }}" class="btn btn-secondary tam-button">Novo Sorteio</a>
+                <a href="" class="btn btn-secondary tam-button">Consultar Sorteio</a>
+                <a href="" class="btn btn-secondary tam-button">Editar Sorteio</a>
+                <a href="" class="btn btn-secondary tam-button">Excluir Sorteio</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

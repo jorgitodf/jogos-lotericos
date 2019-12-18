@@ -30,8 +30,8 @@ $app->get('/home/{name}/{id}', function(ServerRequestInterface $request) {
     return $response;
 });
 
-require_once __DIR__ . '/../src/Controllers/users.php';
-require_once __DIR__ . '/../src/Controllers/auth.php'; 
-require_once __DIR__ . '/../src/Controllers/home.php'; 
-
+require_once __DIR__ . '/../src/controllers/users.php';
+require_once __DIR__ . '/../src/controllers/auth.php';
+require_once __DIR__ . '/../src/controllers/home.php';
+require_once __DIR__ . '/../src/controllers/lotofacil.php';
 $app->start();

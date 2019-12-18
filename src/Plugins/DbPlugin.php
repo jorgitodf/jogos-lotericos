@@ -4,7 +4,9 @@ namespace App\Plugins;
 
 use Interop\Container\ContainerInterface;
 use App\Models\User;
+use App\Model\Lotofacil;
 use App\Repository\RepositoryFactory;
+use App\Repository\LotofacilRepository;
 use App\ServiceContainerInterface;
 use Illuminate\Database\Capsule\Manager as Capsule;  
 use App\Repository\StatementRepository;
@@ -22,6 +24,10 @@ class DbPlugin implements PluginInterface
 
         $container->addLazy('user.repository', function(ContainerInterface $container){
             return $container->get('repository.factory')->factory(User::class);
+        });
+
+        $container->addLazy('lotofacil.repository', function(){
+            return new LotofacilRepository();
         });
         
         $container->addLazy('statement.repository', function(){
