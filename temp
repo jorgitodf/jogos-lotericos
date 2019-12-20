@@ -27,3 +27,26 @@ vendor\bin\phinx.bat create CreateLotofacilBettings
 vendor\bin\phinx.bat create CreateUsersTable
 
 php migrate-seed.php
+
+
+
+                $size = count($array);
+
+                for ($i = 0; $i < $size; $i++) {
+                    if ($primeira_linha == false) {
+                        $data['data'] = date('Y-m-d', strtotime($linha->getElementsByTagName("Data")->item(1)->nodeValue));
+                        $data['numero_concurso'] = $linha->getElementsByTagName("Data")->item(2)->nodeValue;
+                        $data['bola1'] = $linha->getElementsByTagName("Data")->item(3)->nodeValue;
+                    }  
+                    $primeira_linha = false;    
+                }    
+
+
+        //Lotofacil::insert($data);
+
+        Lotofacil::create([]);
+
+        Lotofacil::insert('insert into easy_lottos (data, numero_concurso, bola1, bola2, bola3, bola4, bola5, bola6, 
+        bola7, bola8, bola9, bola10, bola11, bola12, bola13, bola14, bola15, created_at, updated_at) values (?, ?, ?, ?, ?
+        , ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', ['2019-12-19', '1910', '1', '2', '3', '4', '5', '6', '7', '8', '9'
+        , '10', '11', '12', '13', '14', '15', date('Y-m-d H:i:s'), date('Y-m-d H:i:s')]);

@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34b4839a-738c-4fe5-873c-43c6c99eaddd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrations/20170404232152_create_category_costs.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrations/20170425170154_add_user_to_category_costs.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrations/20170426131438_create_bill_receives_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrations/20170426183539_create_bill_pays_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrate-seed.php" beforeDir="false" afterPath="$PROJECT_DIR$/migrate-seed.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Plugins/DbPlugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plugins/DbPlugin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp" beforeDir="false" afterPath="$PROJECT_DIR$/temp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html.twig" afterDir="false" />
-    </list>
+    <list default="true" id="34b4839a-738c-4fe5-873c-43c6c99eaddd" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +69,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="FullScreen" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../clinicamed" />
     <property name="php.override.implement.member.chooser.php.doc" value="COPY_ALWAYS" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
@@ -125,6 +113,7 @@
       <workItem from="1576667470827" duration="169000" />
       <workItem from="1576690387470" duration="25000" />
       <workItem from="1576690418687" duration="1064000" />
+      <workItem from="1576755415979" duration="62000" />
     </task>
     <servers />
   </component>

@@ -29,7 +29,7 @@ class DbPlugin implements PluginInterface
         $container->addLazy('lotofacil.repository', function(){
             return new LotofacilRepository();
         });
-        
+       
         $container->addLazy('statement.repository', function(){
             return new StatementRepository();
         });

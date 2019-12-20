@@ -24,6 +24,8 @@ class CreateEasyLottos extends AbstractMigration
             ->addColumn('bola13', 'integer', ['limit' => MysqlAdapter::INT_SMALL])
             ->addColumn('bola14', 'integer', ['limit' => MysqlAdapter::INT_SMALL])
             ->addColumn('bola15', 'integer', ['limit' => MysqlAdapter::INT_SMALL])
+            ->addColumn('created_at', 'datetime')
+            ->addColumn('updated_at', 'datetime')
             ->save();
     }
     

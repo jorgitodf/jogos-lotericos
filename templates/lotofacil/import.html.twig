@@ -1,0 +1,33 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+    <div class="container col-10 col-sm-10 col-md-10 col-lg-10">
+        <h3>{{title}}</h3>
+        <div class="card" role="toolbar">
+            <div class="card-body cor-card" role="group" aria-label="First group">
+                <form method="POST" action="{{ route('lotofacil.importing') }}" enctype="multipart/form-data" id="form_import_concursos_lotofacil">
+                    <div class="row">
+                        <div class="form-group col-md-10 col-sm-10">
+                            <label>Arquivo</label>
+                            <input type="file" name="arquivo">
+                        </div>                     
+                    </div>  
+                    <div class="row">
+                        <div class="form-group col-md-6 col-sm-6">
+                            <button type="submit" class="btn btn-primary" id="btnEnviar">Enviar</button>
+                        </div> 
+                        <div class="form-group col-md-5 col-sm-5" id="div-msgs">
+                            <div class="progress porcentagem">
+                                <div class="progress-bar progress-bar-striped bg-success">
+                                    <span class="valor"></span>
+                                </div>
+                            </div>
+                            <div class="retorno"></div>
+                        </div>
+                    </div>  
+                </form>  
+            </div>
+        </div>    
+    </div>
+{% endblock %}
+

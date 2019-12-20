@@ -4,6 +4,8 @@ $filename = __DIR__.preg_replace('#(\?.*)$#', '', $_SERVER['REQUEST_URI']);
     return false;
 }
 
+date_default_timezone_set('America/Sao_Paulo');
+
 use Psr\Http\Message\ServerRequestInterface;
 use App\Application;
 use App\Plugins\RoutePlugin;

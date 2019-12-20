@@ -23,3 +23,25 @@ div.row {
 .cor-card {
     background: #e6e6e6 !important;
 }
+
+.msgError {
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.msgSuccess {
+    color: green;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px;
+    background: #99ffcc !important;
+}
+
+.msgWarning {
+    color: #ffaa00;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px;
+}
